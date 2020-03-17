@@ -93,6 +93,8 @@ public class IntList {
                 B = B.rest;
             }
             return A;
+        } else if (B != null) {
+            return B;
         } else {
             return null;
         }
@@ -122,6 +124,8 @@ public class IntList {
                 B = B.rest;
             }
             return res;
+        } else if (B != null) {
+            return B;
         } else {
             return null;
         }
